@@ -36,8 +36,9 @@ The Secrets Application is a web application developed using Node.js, Express.js
 
 ## How it Works:
 * User Registration: Upon registration, user credentials are securely saved in the PostgreSQL database.
-* User Authentication: During login, the application verifies user credentials against the stored data. If the credentials are correct, the user gains access to the homepage; otherwise, an error message is displayed.
-* Access Control: Incorrect login attempts redirect the user to the homepage to re-enter correct credentials. Unregistered users are also directed to the homepage, where they can sign up for an account.
+* User Authentication: During login, the application verifies user credentials against the stored data. If the credentials are correct, the user gains access to 
+  the homepage; otherwise, an error message is displayed.
+* Access Control: Incorrect login attempts prompts the user with an error message indicating incorrect credentials.
   
 ## Contributing:
 * Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
