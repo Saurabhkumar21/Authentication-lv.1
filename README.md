@@ -1,10 +1,25 @@
 # Secrets Application
 The Secrets Application is a web application developed using Node.js, Express.js, EJS, and PostgreSQL. It provides users with a platform to securely register and log in to access exclusive content.
 
+![db1](https://github.com/Saurabhkumar21/Authentication-lv.1/assets/109983569/024ecdf7-b499-4931-a39a-312d5e5d93a5)
+
+
 ## Features:
 * User Registration: Allows users to sign up for an account by providing their credentials, which are securely stored in a PostgreSQL database.
+  
+![db2](https://github.com/Saurabhkumar21/Authentication-lv.1/assets/109983569/6194ccd9-d118-4ff2-bde8-5a6e2f8e9b88)
+
 * User Authentication: Validates user credentials during login by checking against the stored data in the database.
+
+ ![db3](https://github.com/Saurabhkumar21/Authentication-lv.1/assets/109983569/1798058a-438b-4159-9f6a-e1ccadd41e36)
+
 * Access Control: Grants access to the homepage upon successful authentication; otherwise, prompts the user with an error message indicating incorrect credentials.
+
+ <img src="https://github.com/Saurabhkumar21/Authentication-lv.1/assets/109983569/29682a6a-1502-46b7-8475-94a36238d3f6"  width="48%" height="50%">
+
+
+ <img src="https://github.com/Saurabhkumar21/Authentication-lv.1/assets/109983569/3a43241e-868c-4cad-b4fe-f2dffdfacea8" width="48%" height="50%">
+
   
 ## Technologies Used:
 * Node.js: A JavaScript runtime for building server-side applications.
